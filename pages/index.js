@@ -171,63 +171,63 @@ export default function Home() {
             <div className="contenter d-flex align-items-center justify-content-center">
             <div className="row mt-3 ">
               <div className="col-lg-4 text-center">
-                <div class="card" style={{width:"18rem"}}>
+                <div className="card" style={{width:"18rem"}}>
                   <Image
                     src="/images/index/images.jpg"
                     width={200}
                     height={200}
-                    class="card-img-top"
+                    className="card-img-top"
                     alt="JKSV"
                   />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
+                  <div className="card-body">
+                    <h5 className="card-title">Card title</h5>
+                    <p className="card-text">
                       Some quick example text to build on the card title and
                       make up the bulk of the card's content.
                     </p>
-                    <a href="#" class="btn btn-primary">
+                    <a href="#" className="btn btn-primary">
                       Go somewhere
                     </a>
                   </div>
                 </div>
               </div>
               <div className="col-lg-4 text-center">
-                <div class="card" style={{width:"18rem"}}>
+                <div className="card" style={{width:"18rem"}}>
                   <Image
                     src="/images/index/images.jpg"
                     width={200}
                     height={200}
-                    class="card-img-top"
+                    className="card-img-top"
                     alt="JKSV"
                   />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
+                  <div className="card-body">
+                    <h5 className="card-title">Card title</h5>
+                    <p className="card-text">
                       Some quick example text to build on the card title and
                       make up the bulk of the card's content.
                     </p>
-                    <a href="#" class="btn btn-primary">
+                    <a href="#" className="btn btn-primary">
                       Go somewhere
                     </a>
                   </div>
                 </div>
               </div>
               <div className="col-lg-4 text-center">
-                <div class="card" style={{width:"18rem"}}>
+                <div className="card" style={{width:"18rem"}}>
                   <Image
                     src="/images/index/images.jpg"
                     width={200}
                     height={200}
-                    class="card-img-top"
+                    className="card-img-top"
                     alt="JKSV"
                   />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
+                  <div className="card-body">
+                    <h5 className="card-title">Card title</h5>
+                    <p className="card-text">
                       Some quick example text to build on the card title and
                       make up the bulk of the card's content.
                     </p>
-                    <a href="#" class="btn btn-primary">
+                    <a href="#" className="btn btn-primary">
                       Go somewhere
                     </a>
                   </div>

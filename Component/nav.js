@@ -16,10 +16,11 @@ export default function Nav() {
       <header className={Style["header"]}>
         <a className={Style["logo"]}>VSNX</a>
 
-        <label form="" className={Style["nav-icon"]}>
-          <button onClick={toggleNavbar}></button>
-          {click ? <IoMdMenu /> : <IoMdClose />}
-        </label>
+        {/* <label form="" className={Style["nav-icon"]}> */}
+          <button onClick={toggleNavbar} className={Style["nav-icon"]}>
+            {click ? <IoMdMenu /> : <IoMdClose />}
+          </button>
+        {/* </label> */}
 
         <div
           className={Style["nbar"]}

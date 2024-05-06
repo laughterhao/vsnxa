@@ -1,0 +1,48 @@
+
+    .service-img {
+      padding-top: 2rem;
+      display: flex;
+      justify-content: space-around;
+      .item {
+        position: relative;
+        .img {
+          padding: 1rem;
+        }
+        .txt {
+          position: absolute;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          padding: 1.25rem;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          background: rgba(0, 0, 0, 0.3);
+          text-align: center;
+          transition: 1s;
+          opacity: 0;
+          h2 {
+            font-size: 1.6rem;
+            color: #fff;
+          }
+        }
+        :hover {
+          transition: 1s;
+          opacity: 1;
+        }
+      }
+    }
+  
+    @media (max-width: 1024px) {
+      .service-img {
+        .item {
+          .txt {
+            h2 {
+              font-size: 1rem;
+              color: #fff;
+            }
+          }
+        }
+      }
+    }

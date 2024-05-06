@@ -54,80 +54,14 @@
 .service-warp {
   width: 80%;
   margin: auto;
-  .service-img {
-    padding-top: 2rem;
-    display: flex;
-    justify-content: space-around;
-    .item {
-      position: relative;
-      .img {
-        padding: 1rem;
-      }
-      .txt {
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        padding: 1.25rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        background: rgba(0, 0, 0, 0.3);
-        text-align: center;
-        transition: 1s;
-        opacity: 0;
-        h2 {
-          font-size: 1.6rem;
-          color: #fff;
-        }
-      }
-      :hover {
-        transition: 1s;
-        opacity: 1;
-      }
-    }
-  }
 }
-
 .basic-warp {
   width: 80%;
   margin: auto;
-  .img-warp {
-    margin: auto;
-    position: relative;
-    img {
-      display: block;
-      margin: auto;
-    }
-    .small-img {
-      width: 60%;
-      position: absolute;
-      left: 50%;
-      bottom: 5%;
-      transform: translate(-50%, -50%);
-    }
-  }
-}
-.txt {
-  background: #fff;
-  padding: 15px;
-  border: 1px solid #354649;
 }
 .Jb-warp {
   width: 80%;
-margin: auto;
-  .expansion-content {
-    width: 80%;
-    margin: auto;
-    .expansion-title {
-      width: 100%;
-      border-bottom: 1px solid #354649;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-  }
+  margin: auto;
 }
 
 .title-button {
@@ -151,46 +85,6 @@ margin: auto;
     .btn:hover {
       background: #354649;
       color: #fff;
-    }
-  }
-}
-
-@media (min-width: 769px) and (max-width: 1024px) {
-  .basic-warp {
-    .img-warp {
-      .small-img {
-        width: 45%;
-        position: absolute;
-        left: 50%;
-        bottom: 5%;
-        transform: translate(-50%, -50%);
-      }
-    }
-  }
-}
-@media (min-width: 1025px) and (max-width: 1440px) {
-  .basic-warp {
-    .img-warp {
-      .small-img {
-        width: 40%;
-        position: absolute;
-        left: 50%;
-        bottom: 5%;
-        transform: translate(-50%, -50%);
-      }
-    }
-  }
-}
-@media (min-width: 1441px) and (max-width: 2560px) {
-  .basic-warp {
-    .img-warp {
-      .small-img {
-        width: 22%;
-        position: absolute;
-        left: 50%;
-        bottom: 5%;
-        transform: translate(-50%, -50%);
-      }
     }
   }
 }
@@ -246,21 +140,5 @@ margin: auto;
   }
   .title-button {
     margin-top: 1.2rem;
-  }
-  .service-warp {
-    .service-img {
-      .item {
-        .txt {
-          h2 {
-            font-size: .8rem;
-            color: #fff;
-          }
-        }
-        :hover {
-          transition: 1s;
-          opacity: 1;
-        }
-      }
-    }
   }
 }

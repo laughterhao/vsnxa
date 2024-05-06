@@ -1,0 +1,56 @@
+.img-warp {
+  margin: auto;
+  position: relative;
+  img {
+    display: block;
+    margin: auto;
+  }
+  .small-img {
+    width: 60%;
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    transform: translate(-50%, -50%);
+  }
+}
+.txt {
+    background: #fff;
+    padding: 15px;
+    border: 1px solid #354649;
+  }
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .img-warp {
+    .small-img {
+      width: 45%;
+      position: absolute;
+      left: 50%;
+      bottom: 5%;
+      transform: translate(-50%, -50%);
+    }
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .img-warp {
+    .small-img {
+      width: 40%;
+      position: absolute;
+      left: 50%;
+      bottom: 5%;
+      transform: translate(-50%, -50%);
+    }
+  }
+}
+
+@media (min-width: 1441px) and (max-width: 2560px) {
+  .img-warp {
+    .small-img {
+      width: 22%;
+      position: absolute;
+      left: 50%;
+      bottom: 5%;
+      transform: translate(-50%, -50%);
+    }
+  }
+}

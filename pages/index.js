@@ -165,6 +165,104 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <div className={Style["Jb-warp"]}>
+          <div className={Style["title-button"]}>
+            <div className={Style["warp"]}>
+              <h2>插件教學</h2>
+              <Link className={Style["btn"]} href={""}>
+                more <IoIosArrowForward className="yt-1" />
+              </Link>
+            </div>
+          </div>
+          <div className="container text-center mt-3">
+            <div className="row">
+              <div className="col-12 col-md-3 mb-2">
+                <div class="card w-100">
+                  <Image
+                    src={"/images/index/images.jpg"}
+                    class="card-img-top"
+                    alt="..."
+                    width={200}
+                    height={200}
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the cards content.
+                    </p>
+                    <a href="#" class="btn btn-primary">
+                      Go somewhere
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className="col-12 col-md-3 mb-2">
+                <div class="card w-100">
+                  <Image
+                    src={"/images/index/images.jpg"}
+                    class="card-img-top"
+                    alt="..."
+                    width={200}
+                    height={200}
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the cards content.
+                    </p>
+                    <a href="#" class="btn btn-primary">
+                      Go somewhere
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className="col-12 col-md-3 mb-2">
+                <div class="card w-100">
+                  <Image
+                    src={"/images/index/images.jpg"}
+                    class="card-img-top"
+                    alt="..."
+                    width={200}
+                    height={200}
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the cards content.
+                    </p>
+                    <a href="#" class="btn btn-primary">
+                      Go somewhere
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className="col-12 col-md-3 mb-2">
+                <div class="card w-100">
+                  <Image
+                    src={"/images/index/images.jpg"}
+                    class="card-img-top"
+                    alt="..."
+                    width={200}
+                    height={200}
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the cards content.
+                    </p>
+                    <a href="#" class="btn btn-primary">
+                      Go somewhere
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </>
   );

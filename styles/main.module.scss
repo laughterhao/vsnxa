@@ -114,9 +114,9 @@
   padding: 15px;
   border: 1px solid #354649;
 }
-.expansion-warp {
-  width: 100%;
-
+.Jb-warp {
+  width: 80%;
+margin: auto;
   .expansion-content {
     width: 80%;
     margin: auto;
@@ -132,7 +132,8 @@
 
 .title-button {
   width: 100%;
-  margin: auto;
+  margin-inline: auto;
+  margin-top: 1.2rem;
   border-bottom: 1px solid #354649;
   .warp {
     display: flex;
@@ -245,5 +246,21 @@
   }
   .title-button {
     margin-top: 1.2rem;
+  }
+  .service-warp {
+    .service-img {
+      .item {
+        .txt {
+          h2 {
+            font-size: .5rem;
+            color: #fff;
+          }
+        }
+        :hover {
+          transition: 1s;
+          opacity: 1;
+        }
+      }
+    }
   }
 }

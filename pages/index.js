@@ -8,6 +8,16 @@ import Jb from "@/Component/jb/jb";
 import Style from "@/styles/main.module.scss";
 
 export default function Home() {
+  const components = {
+    Service: Service,
+    Basic: Basic,
+    Jb: Jb,
+  };
+  const titles = [
+    { id: 1, title: "服務項目", tag: "Service" },
+    { id: 2, title: "基礎知識", tag: "Basic" },
+    { id: 3, title: "插件教學", tag: "Jb" },
+  ];
   return (
     <>
       <div className={Style["warp-box"]}>
@@ -33,38 +43,24 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className={Style["service-warp"]}>
-          <div className={Style["title-button"]}>
-            <div className={Style["warp"]}>
-              <h2>服務項目</h2>
-              <Link className={Style["btn"]} href={""}>
-                more <IoIosArrowForward className="yt-1" />
-              </Link>
-            </div>
-          </div>
-          <Service/>
-        </div>
-        <div className={Style["basic-warp"]}>
-          <div className={Style["title-button"]}>
-            <div className={Style["warp"]}>
-              <h2>基礎知識</h2>
-              <Link className={Style["btn"]} href={""}>
-                more <IoIosArrowForward className="yt-1" />
-              </Link>
-            </div>
-          </div>
-          <Basic/>
-        </div>
-        <div className={Style["Jb-warp"]}>
-          <div className={Style["title-button"]}>
-            <div className={Style["warp"]}>
-              <h2>插件教學</h2>
-              <Link className={Style["btn"]} href={""}>
-                more <IoIosArrowForward className="yt-1" />
-              </Link>
-            </div>
-          </div>
-          <Jb/>
+
+        <div className={Style["warp"]}>
+          {titles.map((item, i) => {
+            const TagName = components[item.tag];
+            return (
+              <>
+                <div key={item.is} className={Style["title-button"]}>
+                  <div className={Style["warp"]}>
+                    <h2>{item.title}</h2>
+                    <Link className={Style["btn"]} href={""}>
+                      more <IoIosArrowForward className="yt-1" />
+                    </Link>
+                  </div>
+                </div>
+                {TagName && <TagName />}
+              </>
+            );
+          })}
         </div>
       </div>
     </>

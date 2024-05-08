@@ -39,19 +39,19 @@ export default function Basic() {
               </div>
             </div>
           </div>
-          <div className="container text-center">
-            <div className="row justify-content-around mt-3">
-              <div className="col-lg-5">
-                <div className={`${Style["txt"]} `}>
+          <div className="container text-center mt-3">
+            <div className="row row-cols-md-2 h-100 ">
+              <div className="col h-100">
+                <div className={`${Style["txt"]}  mb-2 mb-md-0`}>
                   <h2 className="fs-4">SDCard 儲存空間</h2>
                   <p>
                     機器安裝晶片後，所有的資料都必須放在該記憶卡上，讓有晶片主機安裝虛擬系統，遊戲及各類插件
                   </p>
                 </div>
               </div>
-              <div className="col-lg-5">
-                <div className={`${Style["txt"]} `}>
-                  <h2 className="fs-4">SDCard 儲存空間</h2>
+              <div className="col h-100 ">
+                <div className={`${Style["txt"]}  `}>
+                  <h2 className="fs-4">主機內部儲存空間</h2>
                   <p>
                     機器原裝內置的儲存模塊，
                     大小為32G(OLED機型為64G)預裝Switch的操作系統，也可以稱為正版系統

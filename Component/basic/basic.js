@@ -41,7 +41,7 @@ export default function Basic() {
           </div>
           <div className="container text-center mt-3">
             <div className="row row-cols-md-2 h-100 ">
-              <div className="col h-100">
+              <div className="col ">
                 <div className={`${Style["txt"]}  mb-2 mb-md-0`}>
                   <h2 className="fs-4">SDCard 儲存空間</h2>
                   <p>
@@ -49,12 +49,11 @@ export default function Basic() {
                   </p>
                 </div>
               </div>
-              <div className="col h-100 ">
+              <div className="col ">
                 <div className={`${Style["txt"]}  `}>
-                  <h2 className="fs-4">主機內部儲存空間</h2>
+                  <h2 className="fs-4">主機內儲存空間</h2>
                   <p>
-                    機器原裝內置的儲存模塊，
-                    大小為32G(OLED機型為64G)預裝Switch的操作系統，也可以稱為正版系統
+                    機器原裝內置的儲存模塊，大小為32G(OLED機型為64G)預裝Switch的操作系統，也能稱為正版系統
                   </p>
                 </div>
               </div>

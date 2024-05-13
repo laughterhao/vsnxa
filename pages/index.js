@@ -9,14 +9,14 @@ import Style from "@/styles/main.module.scss";
 
 export default function Home() {
   const components = {
-    Service: Service,
-    Basic: Basic,
-    Jb: Jb,
+    service: Service,
+    basic: Basic,
+    jb: Jb,
   };
   const titles = [
-    { id: 1, title: "服務項目", tag: "Service" },
-    { id: 2, title: "基礎知識", tag: "Basic" },
-    { id: 3, title: "插件教學", tag: "Jb" },
+    { id: 1, title: "服務項目", tag: "service" },
+    { id: 2, title: "基礎知識", tag: "basic" },
+    { id: 3, title: "插件教學", tag: "jb" },
   ];
   return (
     <>
@@ -49,10 +49,10 @@ export default function Home() {
             const TagName = components[item.tag];
             return (
               <>
-                <div key={item.is} className={Style["title-button"]}>
+                <div key={item.id} className={Style["title-button"]}>
                   <div className={Style["warp"]}>
                     <h2>{item.title}</h2>
-                    <Link className={Style["btn"]} href={""}>
+                    <Link className={Style["btn"]} href={`/${item.tag}`}>
                       more <IoIosArrowForward className="yt-1" />
                     </Link>
                   </div>

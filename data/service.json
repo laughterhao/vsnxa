@@ -1,0 +1,15 @@
+[
+    {"title":"Switch主機", "content":"無法過電開機,藍牙失效/充電故障,卡藍屏、橘屏、LOGO,遊戲讀卡異常"},
+  {
+    "title": "Joy Con手把維修",
+    "content": "手把搖桿/蘑菇頭/飄移,按鍵/L鍵/R鍵,Joy Con(無法配對/藍芽連不上/無法連接連線)"
+  },
+  {
+    "title": "Switch Lite搖桿維修",
+    "content": "手把搖桿/蘑菇頭/飄移,按鍵/L鍵/R鍵"
+  },
+  {
+    "title": "Switch Pro手把維修",
+    "content": "手把搖桿/蘑菇頭/飄移,按鍵/L鍵/R鍵"
+  }
+]

@@ -1,0 +1,98 @@
+﻿[
+    {
+        "id": "01",
+        "title": "SWITCH 不充電維修更換IC",
+        "price": "2000",
+        "content": "無法充電，充電IC更換"
+    },
+    {
+        "id": "02",
+        "title": "SWITCH 不充電維修USB頭損壞更換",
+        "price": "1500",
+        "content": "無法充電尾插USB更換"
+    },
+    {
+        "id": "03",
+        "title": "SWITCH 不讀遊戲卡匣",
+        "price": "1500",
+        "content": "遊戲卡糟更換"
+    },
+    {
+        "id": "04",
+        "title": "SWITCH 不開機",
+        "price": "2500",
+        "content": "無法開機維修"
+    },
+    {
+        "id": "05",
+        "title": "SWITCH 無法連接電視",
+        "price": "2000",
+        "content": "HDMI不顯示維修"
+    },
+    {
+        "id": "06",
+        "title": "SWITCH WIFI無法連線",
+        "price": "2000",
+        "content": "無法連WIFI手把無法連線維修"
+    },
+    {
+        "id": "07",
+        "title": "SWITCH 開機橙屏",
+        "price": "2000",
+        "content": "開機後進不了系統橙屏維修"
+    },
+    {
+        "id": "08",
+        "title": "SWITCH 開機紫屏",
+        "price": "2000",
+        "content": "開機後進不了系統紫屏維修"
+    },
+    {
+        "id": "09",
+        "title": "SWITCH 藍屏維修卡LOGO維修",
+        "price": "3000",
+        "content": "開機藍屏維修"
+    },
+    {
+        "id": "10",
+        "title": "SWITCH 救磚",
+        "price": "2500",
+        "content": "改機後無法開機維修"
+    },
+    {
+        "id": "11",
+        "title": "SWITCH 總成更換",
+        "price": "4000",
+        "content": "液晶總成更換OLED"
+    },
+    {
+        "id": "12",
+        "title": "SWITCH OLED 外玻璃更換",
+        "price": "3500",
+        "content": "顯示及觸控必須正常單換外層玻璃"
+    },
+    {
+        "id": "13",
+        "title": "SWITCH 主機電池更換",
+        "price": "1000",
+        "content": "SWITCH主機電池更換"
+    },
+    {
+        "id": "14",
+        "title": "SWITCH 手把電池更換",
+        "price": "500",
+        "content": "SWITCH手把電池更換"
+    },
+    {
+        "id": "15",
+        "title": "SWITCH 搖桿更換",
+        "price": "300",
+        "content": "搖桿飄移"
+    },
+    {
+        "id": "16",
+        "title": "SWITCH 手把不連主機",
+        "price": "300",
+        "content": "手把不能連主機"
+    }
+]

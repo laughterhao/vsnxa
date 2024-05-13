@@ -14,7 +14,7 @@ export default function Nav() {
   return (
     <>
       <header className={Style["header"]}>
-        <a className={Style["logo"]}>VSNX</a>
+        <Link href={'/'} className={Style["logo"]}>VSNX</Link>
 
         {/* <label form="" className={Style["nav-icon"]}> */}
           <button onClick={toggleNavbar} className={Style["nav-icon"]}>
@@ -26,10 +26,9 @@ export default function Nav() {
           className={Style["nbar"]}
           style={{ visibility: click ? "hidden" : "visible" }}
         >
-          <Link href={''}>基本知識</Link>
-          <Link href={''}>插件說明</Link>
-          <Link href={''}>服務項目</Link>
-
+          <Link href={'/basic'}>基本知識</Link>
+          <Link href={'/jb'}>插件說明</Link>
+          <Link className={Style["different"]} href={'/service'}>服務項目</Link>
           <button className={Style["login"]}>Login</button>
         </div>
       </header>
